@@ -6,13 +6,13 @@
 	--quaternary-color: rgba(255, 255, 255, 0.6);
 	--primary-background-color: #2F303A;
 	--accent-background-color: #188CE8;
+	--secondary-background-color: #F5F4FA;
 }
 
 body{
 	font-family: 'Roboto', sans-serif;
 	color: var(--primary-color);
 	letter-spacing: 0.03em;
-	/* font-family: 'Raleway', sans-serif; */
 }
 
 .link{
@@ -25,6 +25,7 @@ body{
 	color: var(--accent-color)
 }
 
+/** Studio page */
 /* Header */
 .logo{
 	font-family: "Raleway", sans-serif;
@@ -147,4 +148,37 @@ body{
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--quaternary-color);
+}
+
+
+/** Portfolio page */
+
+.gallery-button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	letter-spacing: 0.03em;
+	color: var(--primary-color);
+	background-color: var(--secondary-background-color);
+	cursor: pointer;
+}
+.gallery-button:hover,
+.gallery-button:focus{
+	color: var(--tertiary-color);
+	background-color: var(--accent-color);
+}
+.gallery-subtitle{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-color);
+}
+.gallery-description{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--secondary-color);
 }
