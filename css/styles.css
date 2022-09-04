@@ -69,6 +69,7 @@ body{
 	color: var(--tertiary-color);
 }
 .hero-button {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -154,7 +155,7 @@ body{
 /** Portfolio page */
 
 .gallery-button{
-	font-family: 'Roboto', sans-serif;
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
